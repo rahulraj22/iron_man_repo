@@ -1,0 +1,46 @@
+#header {
+    font-size: 3rem;
+    color: #e384ff;
+    text-shadow: 4px 0px palevioletred;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 250px;
+    margin: 0 12px;
+    border-radius: 18px;
+    border-style: solid;
+}
+
+input {
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+    padding: 11px 24px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+
+input[type="submit"]:hover {
+    background-color: aqua;
+}
+
+input[type='submit']:active {
+    opacity: 0.6;
+}
+
+#label {
+    font-size: 19px;
+}
+
+@media (max-width: 518px) {
+    input[type = 'submit']{
+        display: block;
+        margin: 12px auto;
+    }
+}
